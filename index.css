@@ -13,8 +13,9 @@
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  border: 3px solid black;
+  border: 3px solid rgb(17, 17, 17);
   margin: 5px 10px;
+  background-color: #cdffff;
 }
 
 .nav-ul {
@@ -24,12 +25,12 @@
 
 .nav-a {
   text-decoration: none;
-  color: black;
+  color: rgb(17, 17, 17);
   padding: 3px;
   font-weight: 400;
   padding-left: 10px;
   padding-right: 10px;
-  border-right: 2.4px solid black;
+  border-right: 2.4px solid rgb(17, 17, 17);
   transition: all 0.3s ease-in;
 }
 
@@ -52,7 +53,7 @@
   display: flex;
   flex-direction: column;
   padding: 12px;
-  border: 2px solid black;
+  border: 2px solid rgb(17, 17, 17);
   margin: 10px;
 }
 
@@ -67,10 +68,11 @@ div.book-list > div:nth-of-type(odd) {
 }
 
 .book-p1 {
-  display: inline-block;
   padding: 4px;
   font-weight: 700;
   float: left;
+
+  /* display: inline-block; */
 }
 
 .delete {
@@ -167,6 +169,6 @@ div.book-list > div:nth-of-type(odd) {
   display: flex;
   padding: 10px;
   margin: 10px;
-  border: 1px solid black;
+  border: 1px solid rgb(17, 17, 17);
   gap: 10px;
 }
