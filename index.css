@@ -125,7 +125,6 @@ div.book-list > div:nth-of-type(odd) {
 /* Date Section CSS */
 
 .date {
-  padding: 2px 12px 10px 12px;
   color: black;
   display: flex;
   justify-content: flex-end;
