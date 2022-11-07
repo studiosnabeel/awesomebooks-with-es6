@@ -1,3 +1,5 @@
+import { Store } from './modules/store.js';
+
 // UI Class: Handle UI Tasks
 
 class UI {
