@@ -64,7 +64,7 @@
 }
 
 div.book-list > div:nth-of-type(odd) {
-  background: #cfcfcf;
+  background: #cdffff;
 }
 
 .book-p1 {
@@ -126,6 +126,7 @@ div.book-list > div:nth-of-type(odd) {
 
 .date {
   padding: 2px 12px 10px 12px;
+  color: black;
 }
 
 .nav-date {

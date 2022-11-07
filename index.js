@@ -1,6 +1,7 @@
 import Book from './modules/book.js';
 import Store from './modules/store.js';
 import Switch from './modules/switch.js';
+import { DateTime } from './modules/luxon.js';
 // UI Class: Handle UI Tasks
 
 class UI {
@@ -83,3 +84,11 @@ document.querySelectorAll('.nav-a').forEach((link) => {
     Switch.changeForm(link.textContent);
   });
 });
+
+const dateLive = document.querySelector('.date');
+const time = () => {
+  const now = DateTime.now();
+  dateLive.innerHTML = now.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS);
+};
+
+setInterval(time, 10);
