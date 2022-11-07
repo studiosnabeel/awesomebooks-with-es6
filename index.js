@@ -1,3 +1,4 @@
+import { Book } from './modules/book.js';
 import { Store } from './modules/store.js';
 
 // UI Class: Handle UI Tasks
