@@ -1,6 +1,6 @@
-import { Book } from './modules/book.js';
-import { Store } from './modules/store.js';
-
+import Book from './modules/book.js';
+import Store from './modules/store.js';
+import Switch from './modules/switch.js';
 // UI Class: Handle UI Tasks
 
 class UI {
