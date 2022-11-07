@@ -127,6 +127,10 @@ div.book-list > div:nth-of-type(odd) {
 .date {
   padding: 2px 12px 10px 12px;
   color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
 }
 
 .nav-date {
