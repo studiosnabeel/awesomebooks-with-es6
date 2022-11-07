@@ -7,17 +7,41 @@
   font-family: 'Lato', sans-serif;
 }
 
+/* Nav bar Section Css */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 3px solid black;
+  margin: 5px 10px;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: black;
+  padding: 3px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 2.4px solid black;
+  transition: all 0.3s ease-in;
+}
+
+.nav-a:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+/* BookList Section CSS */
+
 .container {
   display: none;
-}
-
-.contact {
-  display: none;
-}
-
-.awesome-h1 {
-  font-size: 20px;
-  text-align: center;
 }
 
 .book-list-container {
@@ -30,6 +54,12 @@
   padding: 12px;
   border: 2px solid black;
   margin: 10px;
+}
+
+.booklist-h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
 }
 
 div.book-list > div:nth-of-type(odd) {
@@ -47,6 +77,13 @@ div.book-list > div:nth-of-type(odd) {
   font-weight: 700;
   float: right;
   margin: 3px;
+}
+
+/* Form Awesome Section CSS */
+
+.awesome-h1 {
+  font-size: 20px;
+  text-align: center;
 }
 
 .awesome-form {
@@ -83,38 +120,7 @@ div.book-list > div:nth-of-type(odd) {
   padding: 2px 5px;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  border: 3px solid black;
-  margin: 5px 10px;
-}
-
-.nav-ul {
-  display: flex;
-  list-style: none;
-}
-
-.nav-a {
-  text-decoration: none;
-  color: black;
-  padding: 3px;
-  font-weight: 400;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-right: 2.4px solid black;
-  transition: all 0.3s ease-in;
-}
-
-.nav-a:hover {
-  color: tomato;
-  cursor: pointer;
-}
-
-#nav-contact {
-  border: none;
-}
+/* Date Section CSS */
 
 .date {
   padding: 2px 12px 10px 12px;
@@ -126,12 +132,10 @@ div.book-list > div:nth-of-type(odd) {
   font-weight: 500;
 }
 
-.copyright-container {
-  display: flex;
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid black;
-  gap: 10px;
+/* Contact Section CSS */
+
+.contact {
+  display: none;
 }
 
 .contact-container {
@@ -153,8 +157,16 @@ div.book-list > div:nth-of-type(odd) {
   margin-bottom: 30px;
 }
 
-.booklist-h2 {
-  font-size: 40px;
-  font-weight: 700;
-  text-align: center;
+#nav-contact {
+  border: none;
+}
+
+/* Footer section CSS */
+
+.copyright-container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid black;
+  gap: 10px;
 }
