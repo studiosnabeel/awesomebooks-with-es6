@@ -13,23 +13,23 @@ export default class Switch {
       bookContainer.style.display = 'block';
       awesomeForm.style.display = 'none';
       contactForm.style.display = 'none';
-      linkOne.style.color = 'tomato';
-      linkTwo.style.color = 'black';
-      linkThree.style.color = 'black';
+      linkOne.classList.add('tomato');
+      linkTwo.classList.remove('tomato');
+      linkThree.classList.remove('tomato');
     } else if (key === 'Add new') {
       bookContainer.style.display = 'none';
       awesomeForm.style.display = 'block';
       contactForm.style.display = 'none';
-      linkTwo.style.color = 'tomato';
-      linkOne.style.color = 'black';
-      linkThree.style.color = 'black';
+      linkOne.classList.remove('tomato');
+      linkTwo.classList.add('tomato');
+      linkThree.classList.remove('tomato');
     } else {
       bookContainer.style.display = 'none';
       awesomeForm.style.display = 'none';
       contactForm.style.display = 'block';
-      linkThree.style.color = 'tomato';
-      linkOne.style.color = 'black';
-      linkTwo.style.color = 'black';
+      linkOne.classList.remove('tomato');
+      linkTwo.classList.remove('tomato');
+      linkThree.classList.add('tomato');
     }
   }
 }
