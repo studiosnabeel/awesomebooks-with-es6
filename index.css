@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Nav bar Section Css */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border: 3px solid rgb(17, 17, 17);
+  margin: 5px 10px;
+  background-color: #cdffff;
+}
+
+.nav-ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-a {
+  text-decoration: none;
+  color: rgb(17, 17, 17);
+  padding: 3px;
+  font-weight: 400;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 2.4px solid rgb(17, 17, 17);
+  transition: all 0.3s ease-in;
+}
+
+.nav-a:hover {
+  color: tomato;
+  cursor: pointer;
+}
+
+.tomato {
+  color: tomato;
+}
+
+/* BookList Section CSS */
+
+.container {
+  display: none;
+}
+
+.book-list-container {
+  height: 75vh;
+}
+
+.book-list {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border: 2px solid rgb(17, 17, 17);
+  margin: 10px;
+}
+
+.booklist-h2 {
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+div.book-list > div:nth-of-type(odd) {
+  background: #cdffff;
+}
+
+.book-p1 {
+  padding: 4px;
+  font-weight: 700;
+  float: left;
+
+  /* display: inline-block; */
+}
+
+.delete {
+  font-weight: 700;
+  float: right;
+  margin: 3px;
+}
+
+/* Form Awesome Section CSS */
+
+.awesome-h1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.awesome-form {
+  height: 75vh;
+  padding: 90px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-h2 {
+  margin-bottom: 100px;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 10px;
+}
+
+.awesome-btn {
+  padding: 2px 8px;
+  font-weight: 600;
+}
+
+.awesome-btn-folder {
+  width: 70%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.awesome-input {
+  width: 70%;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 2px 5px;
+}
+
+/* Date Section CSS */
+
+.date {
+  color: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-date {
+  font-size: 16px;
+  text-align: end;
+  font-weight: 500;
+}
+
+/* Contact Section CSS */
+
+.contact {
+  display: none;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 30px;
+  height: 75vh;
+}
+
+.contact-h2 {
+  margin-bottom: 70px;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.contact-p {
+  margin-bottom: 30px;
+}
+
+#nav-contact {
+  border: none;
+}
+
+/* Footer section CSS */
+
+.copyright-container {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid rgb(17, 17, 17);
+  gap: 10px;
+}
