@@ -22,7 +22,17 @@ To get a local copy up and running follow these simple example steps.
 
 - cd awesomebooks-with-es6/
 
+- git init 
+
+- git checkout -b feature branch name
+
 - code .
+
+- git add . (to stage a file)
+
+- git commit -m "name of commit" (To commit an action)
+
+- git push -u origin main
 
 ## Authors
 
